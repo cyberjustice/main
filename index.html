@@ -49,7 +49,7 @@
       .next {
         cursor: pointer;
         position: absolute;
-        top: 33%;
+        top: 50%;
         width: auto;
         padding: 16px;
         margin-top: -50px;
@@ -73,15 +73,6 @@
         background-color: rgba(0, 0, 0, 0.75);
       }
 
-      /* Number text (1/3 etc) */
-      .numbertext {
-        color: white;
-        font-size: 8px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-
       /* Container for image text */
       .caption-container {
         text-align: center;
@@ -96,8 +87,8 @@
         clear: both;
       }
 
-      /* Six columns side by side */
-      .column {
+      /* Three columns side by side */
+      .column2 {
         float: left;
         width: 33.33%;
       }
@@ -159,18 +150,15 @@
 
       <!-- Full-width images with number text -->
       <div class="mySlides">
-        <div class="numbertext">1 / 3</div>
-          <img src="screenshots/OLD battle scene 1.jpg" style="width:100%">
+        <img src="screenshots/OLD battle scene 1.jpg" style="width:100%">
       </div>
 
       <div class="mySlides">
-        <div class="numbertext">2 / 3</div>
-          <img src="screenshots/OLD battle scene 2.jpg" style="width:100%">
+        <img src="screenshots/OLD battle scene 2.jpg" style="width:100%">
       </div>
 
       <div class="mySlides">
-        <div class="numbertext">3 / 3</div>
-          <img src="screenshots/OLD shops and menus.jpg" style="width:100%">
+        <img src="screenshots/OLD shops and menus.jpg" style="width:100%">
       </div>
 
       <!-- Next and previous buttons -->
@@ -184,13 +172,13 @@
 
       <!-- Thumbnail images -->
       <div class="row">
-        <div class="column">
+        <div class="column2">
           <img class="demo cursor" src="screenshots/OLD battle scene 1.jpg" style="width:100%" onclick="currentSlide(1)">
         </div>
-        <div class="column"> 
+        <div class="column2"> 
           <img class="demo cursor" src="screenshots/OLD battle scene 2.jpg" style="width:100%" onclick="currentSlide(2)">
         </div>
-        <div class="column">
+        <div class="column2">
           <img class="demo cursor" src="screenshots/OLD shops and menus.jpg" style="width:100%" onclick="currentSlide(3)">
         </div>
       </div>
