@@ -31,7 +31,7 @@
       .column2
       {
         float: left;
-        width: 33.33%;
+        width: 16.67%;
         padding: 2px;
       }
       .row2::after
@@ -92,6 +92,19 @@
         cursor: pointer;
       }
       
+      .mySlides {
+        display: none;
+      }
+      
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+      
       @font-face {font-family: laconic; src: url('fonts/laconic.otf'); } 
       @font-face {font-family: affogato; src: url('fonts/affogato.otf'); } 
       body   {background-color: rgb(0, 0, 128);}
@@ -145,7 +158,6 @@
       <div class="column2">
         <img id="scr3" src="screenshots/screenie3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
       </div>
-    <div class="row2">
       <div class="column2">
         <img id="scr4" src="screenshots/screenie4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
       </div>
@@ -162,6 +174,25 @@
     <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
       <div class="modal-content">
+        <div class="mySlides">
+          <img src="screenshots/screenie1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="screenshots/screenie2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="screenshots/screenie3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="screenshots/screenie4.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="screenshots/screenie5.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="screenshots/screenie6.jpg" style="width:100%">
+        </div>
+      </div>
     </div>
     
     <h1>The Gameplay</h2>
