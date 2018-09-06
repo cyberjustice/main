@@ -16,13 +16,25 @@
         width: 50%;
         height: auto;
       }
-      .column
+      .column1
       {
         float: left;
         width: 25%;
         padding: 4px;
       }
-      .row::after
+      .row1::after
+      {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .column2
+      {
+        float: left;
+        width: 25%;
+        padding: 2px;
+      }
+      .row2::after
       {
         content: "";
         clear: both;
@@ -131,31 +143,53 @@
       <div class="column">
         <a href="https://cyberjustice.github.io/devs/">
           <img src="buttons/buttondevs.png" alt="The Developers" style="width:100%">
-         </a>
+        </a>
       </div>
       <div class="column">
         <a href="https://cyberjustice.github.io/demo/">
           <img src="buttons/buttondownload.png" alt="Download DEMO" style="width:100%">
-         </a>
+        </a>
       </div>
       <div class="column">
         <a href="https://cyberjustice.github.io/changelog/">
           <img src="buttons/buttonchangelogs.png" alt="Changelogs" style="width:100%">
-         </a>
+        </a>
       </div>
       <div class="column">
         <a href="https://cyberjustice.github.io/presskit/">
           <img src="buttons/buttonpress.png" alt="Press Kit" style="width:100%">
-         </a>
+        </a>
       </div>
     </div>
     
     <br />
     
+    <div class="row2">
+      <div class="column2">
+        <img id="scr1" src="screenshots/screenie1.png" alt="Battle 1" style="width:100%">
+      </div>
+      <div class="column2">
+        <img id="scr2" src="screenshots/screenie2.png" alt="Battle 2" style="width:100%">
+      </div>
+    </div>
+    <div class="row2">
+      <div class="column2">
+        <img id="scr3" src="screenshots/screenie3.png" alt="Menu 1" style="width:100%">
+      </div>
+      <div class="column2">
+        <img id="scr4" src="screenshots/screenie4.png" alt="Menu 2" style="width:100%">
+      </div>
+    </div>
+    <div class="row2">
+      <div class="column2">
+        <img id="scr5" src="screenshots/screenie5.png" alt="Menu 3" style="width:100%">
+      </div>
+      <div class="column2">
+        <img id="scr6" src="screenshots/screenie6.png" alt="Menu 4" style="width:100%">
+      </div>
+    </div>
+    
     <!-- Writing original code is for NEEEERDS -->
-    <!-- Trigger the Modal -->
-    <img id="myImg" src="screenshots/OLD battle scene 1.jpg" alt="OLD battle scene 1" style="width:25%">
-
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
