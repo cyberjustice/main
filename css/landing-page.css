@@ -10,7 +10,7 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "Helvetica Neue", affogato, affogato, sans-seriff;
+  font-family: "Lato", "Helvetica Neue", laconic, affogato, sans-seriff;
   font-weight: 1000;
 }
 
